@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<style>
+	
+	</style>
+		<meta charset="utf-8"/>
+		<title>Tourist Spanish</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type='text/javascript' src='scripts/respond.min.js'></script>
+	</head>
+	<body>
+		
+		<header id="banner"> 
+		</header>
+		
+		
+		<section id="sec1">
+					
+
+			
+			
+
+			     <form action="action_page.php">
+					  
+
+					  <center><div class="container">
+						<label><b>Username</b></label>
+						<input type="text" placeholder="Enter Username" name="uname" required>
+
+						<label><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+
+						
+						<input type="checkbox" checked="checked"> Remember me
+					  </div></center>
+
+					  <div class="container" style="background-color:#f1f1f1">
+						<a href= "index.html" type="button" class="button">Cancel</a>
+						<span class="psw">Forgot <a href="#">password?</a></span>
+					  </div>
+				</form>
+				
+				
+
+								
+								<center><button id="myBtn">Login</button></center>
+
+								
+								<div id="myModal" class="modal">
+
+								 
+								  <div class="modal-content">
+									<span class="close">×</span>
+									<p>You Have Sucessfully Logged In</p><br>
+									<a href="index.html" class= "button">Home</a>
+								  </div>
+
+								</div>
+
+								<script>
+								
+								var modal = document.getElementById('myModal');
+
+							
+								var btn = document.getElementById("myBtn");
+
+								// Get the <span> element that closes the modal
+								var span = document.getElementsByClassName("close")[0];
+
+								// When the user clicks the button, open the modal
+								btn.onclick = function() {
+									modal.style.display = "block";
+								}
+
+								// When the user clicks on <span> (x), close the modal
+								span.onclick = function() {
+									modal.style.display = "none";
+								}
+
+								// When the user clicks anywhere outside of the modal, close it
+								window.onclick = function(event) {
+									if (event.target == modal) {
+										modal.style.display = "none";
+									}
+								}
+								</script>
+								
+		</section>
+		
+		<footer>
+			<nav>
+				<ul class="test">
+					<li><a href="disclaimer.html" title= "Disclaimer">Disclaimer</a></li>
+					<li><a href="references.html" title="References">References</a></li>
+					<li><a href="http://www.google.ie" title="Return to Google">Return to Google</a></li>
+					<li><a href="contactus.html" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</footer>
+
+	</body>
+</html>

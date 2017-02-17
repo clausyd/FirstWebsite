@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+		<title>Tourist Spanish</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type='text/javascript' src='scripts/respond.min.js'></script>
+		
+	</head>
+	<body>
+		
+		<header id="banner"> 
+		</header>
+		
+		<!-- <section id="sec1"> -->
+					
+
+			
+			
+
+			
+			 
+				<center><form action="action_page.php" method ="post">
+				<fieldset>					 
+					 First name:<br>
+					  <input type="text" name="firstname" value=" ">
+					  <br>
+					  Last name:<br>
+					  <input type="text" name="lastname" value=" ">
+					  <br>
+					  D.O.B:<br>
+					  <input type="text" name="D.O.B" value=" ">
+					  <br>
+					  Email:<br>
+					  <input type="text" name="Email" value=" ">
+					  <br><br>
+						<input type="radio" name="gender" value="male" checked> Male<br>
+					  <input type="radio" name="gender" value="female"> Female<br>
+					  <input type="radio" name="gender" value="other"> Other<br><br>
+					  <!-- <center><button id="myBtn" type = "submit">Submit</button></center> -->
+					  
+					  <a href="index.html" class= "homebutton">Home</a>
+					  </fieldset>
+				</form></center>
+										
+
+							<!-- Trigger/Open The Modal -->
+							<center><button id="myBtn">Submit</button></center>
+
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+
+							  <!-- Modal content -->
+							  <div class="modal-content">
+								<span class="close">×</span>
+								<p>Accout Registered</p>
+							  </div>
+
+							</div>
+
+							<script>
+							// Get the modal
+							var modal = document.getElementById('myModal');
+
+							// Get the button that opens the modal
+							var btn = document.getElementById("myBtn");
+
+							// Get the <span> element that closes the modal
+							var span = document.getElementsByClassName("close")[0];
+
+							// When the user clicks the button, open the modal
+							btn.onclick = function() {
+								modal.style.display = "block";
+							}
+
+							// When the user clicks on <span> (x), close the modal
+							span.onclick = function() {
+								modal.style.display = "none";
+							}
+
+							// When the user clicks anywhere outside of the modal, close it
+							window.onclick = function(event) {
+								if (event.target == modal) {
+									modal.style.display = "none";
+								}
+							}
+							</script>
+				
+			    
+				
+				
+					
+			
+		
+		<footer>
+			<nav>
+				<ul class="test">
+					<li><a href="disclaimer.html" title= "Disclaimer">Disclaimer</a></li>
+					<li><a href="references.html" title="References">References</a></li>
+					<li><a href="http://www.google.ie" title="Return to Google">Return to Google</a></li>
+					<li><a href="contactus.html" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</footer>
+
+	</body>
+</html>
